@@ -7,4 +7,4 @@ Mid-cap US stocks for chart-ta. Stage A: **S&P MidCap 400 members** (Wikipedia l
 | `data` | `prices.parquet` (last 2 years), `universe.csv`, `meta.json` — same layout as us-market-data | weekdays 07:47 KST (+ backups), or push `REFRESH` |
 | `history` | `prices_YYYY.parquet` (2005~), `universe.csv`, `meta.json` | monthly, or push `REFRESH_HISTORY` |
 
-Universe = current index membership: the history branch has survivorship and composition bias (reference backtest only). Forward signals are recorded in the private chart-ta sheet, not here.
+Stage B list: `lists/r1000_approx.csv` (monthly, `rank.yml`). Universe = current index membership: the history branch has survivorship and composition bias (reference backtest only). Forward signals are recorded in the private chart-ta sheet, not here.

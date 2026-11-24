@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import io
 import time
+from pathlib import Path
 
 import pandas as pd
 import requests
@@ -35,9 +36,21 @@ def _sp400() -> pd.DataFrame:
     raise RuntimeError("S&P 400 table not found")
 
 
+B_LIST = Path(__file__).resolve().parents[1] / "lists" / "r1000_approx.csv"
+
+
 def load_universe() -> tuple[pd.DataFrame, str]:
+    """A(S&P 400) ∪ B(러셀 1000 근사, lists/r1000_approx.csv가 있으면). list 열: sp400 / r1000x / sp400+r1000x."""
     r, src = _sp400(), "Wikipedia List of S&P 400 companies"
     print(f"S&P 400 rows {len(r)}", flush=True)
+    if B_LIST.exists():
+        b = pd.read_csv(B_LIST)
+        b = pd.DataFrame({"ticker": b["ticker"].astype(str), "name": b["name"].astype(str), "sector": "", "list": "r1000x"})
+        both = set(r["ticker"]) & set(b["ticker"])
+        r.loc[r["ticker"].isin(both), "list"] = "sp400+r1000x"
+        r = pd.concat([r, b[~b["ticker"].isin(set(r["ticker"]))]], ignore_index=True)
+        src += f" + Russell 1000 approx ({len(b)}; overlap {len(both)})"
+        print(f"B list rows {len(b)}, overlap with S&P 400 {len(both)}", flush=True)
     r["ticker"] = r["ticker"].str.replace(".", "-", regex=False).str.replace(" ", "-", regex=False)
     r = r[r["ticker"].str.fullmatch(r"[A-Z][A-Z0-9\-]{0,6}")]
     large = pd.read_csv(io.StringIO(requests.get(LARGE_URL, timeout=60).text))["ticker"].astype(str)
