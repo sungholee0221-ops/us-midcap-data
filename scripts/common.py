@@ -1,9 +1,8 @@
-"""Shared helpers: universe (Russell 1000 minus S&P 500 / Nasdaq-100 names already in us-market-data) and yfinance download.
+"""Shared helpers: universe and yfinance download.
 
-Universe sources (tried in order):
-  1. iShares Russell 1000 ETF (IWB) holdings CSV
-  2. Wikipedia "Russell 1000 Index" components table
-Large caps already covered by us-market-data (read-only, never written) are removed.
+Stage A (2026-11-24): S&P MidCap 400 members from Wikipedia, minus names already in us-market-data (read-only).
+Stage B (planned): Russell 1000 approximation (top 1000 by 3-month dollar volume from the Nasdaq Trader symbol
+directory) added as a union with a `list` tag.
 """
 from __future__ import annotations
 
@@ -14,52 +13,31 @@ import pandas as pd
 import requests
 import yfinance as yf
 
-IWB_URL = ("https://www.ishares.com/us/products/239707/ishares-russell-1000-etf/1467271812596.ajax"
-           "?fileType=csv&fileName=IWB_holdings&dataType=fund")
-WIKI_URL = "https://en.wikipedia.org/wiki/Russell_1000_Index"
+SP400_URL = "https://en.wikipedia.org/wiki/List_of_S%26P_400_companies"
 LARGE_URL = "https://raw.githubusercontent.com/sungholee0221-ops/us-market-data/data/universe.csv"
-UA = {"User-Agent": "Mozilla/5.0 (chart-ta research; github.com/sungholee0221-ops)"}
-INDICES = ["^GSPC", "^RUI", "^RUT", "^VIX"]
+UA = {"User-Agent": "chart-ta-research/1.0 (personal research; github.com/sungholee0221-ops/us-midcap-data)"}
+INDICES = ["^GSPC", "^MID", "^RUT", "^VIX"]
 
 
-def _iwb() -> pd.DataFrame:
-    resp = requests.get(IWB_URL, headers=UA, timeout=60)
-    txt = resp.content.decode("utf-8-sig", errors="replace")
-    lines = txt.splitlines()
-    print(f"IWB status {resp.status_code} type {resp.headers.get('content-type')} len {len(txt)} head {txt[:200]!r}", flush=True)
-    start = next((i for i, l in enumerate(lines) if l.lstrip('\ufeff"').startswith("Ticker")), None)
-    if start is None:
-        raise RuntimeError("no Ticker header in IWB response")
-    df = pd.read_csv(io.StringIO("\n".join(lines[start:])))
-    df = df[df["Asset Class"].astype(str).str.lower().eq("equity")]
-    return pd.DataFrame({"ticker": df["Ticker"].astype(str).str.strip(), "name": df["Name"].astype(str),
-                         "sector": df.get("Sector", "")})
-
-
-def _wiki() -> pd.DataFrame:
-    resp = requests.get(WIKI_URL, headers=UA, timeout=60)
-    html = resp.text
-    tables = pd.read_html(io.StringIO(html))
-    print(f"wiki status {resp.status_code} tables {[(t.shape, [str(c) for c in t.columns][:4]) for t in tables]}", flush=True)
-    for t in tables:
+def _sp400() -> pd.DataFrame:
+    """1단계(A): S&P MidCap 400 구성 종목(위키백과 표)."""
+    resp = requests.get(SP400_URL, headers=UA, timeout=60)
+    resp.raise_for_status()
+    for t in pd.read_html(io.StringIO(resp.text)):
         cols = {str(c).lower(): c for c in t.columns}
-        sym = next((cols[c] for c in cols if "symbol" in c or "ticker" in c), None)
-        name = next((cols[c] for c in cols if "company" in c or "name" in c), None)
-        if sym is not None and len(t) > 900:
+        sym = next((cols[c] for c in cols if c in ("symbol", "ticker symbol", "ticker")), None)
+        if sym is not None and len(t) >= 350:
+            name = next((cols[c] for c in cols if c in ("security", "company")), None)
+            sec = next((cols[c] for c in cols if "sector" in c), None)
             return pd.DataFrame({"ticker": t[sym].astype(str).str.strip(),
                                  "name": t[name].astype(str) if name is not None else "",
-                                 "sector": t[cols["gics sector"]] if "gics sector" in cols else ""})
-    raise RuntimeError("Russell 1000 table not found on Wikipedia")
+                                 "sector": t[sec].astype(str) if sec is not None else "", "list": "sp400"})
+    raise RuntimeError("S&P 400 table not found")
 
 
 def load_universe() -> tuple[pd.DataFrame, str]:
-    try:
-        r, src = _iwb(), "iShares IWB holdings"
-        if len(r) < 900:
-            raise RuntimeError(f"IWB holdings only {len(r)} rows")
-    except Exception as e:  # noqa: BLE001
-        print(f"IWB failed ({e}); using Wikipedia", flush=True)
-        r, src = _wiki(), "Wikipedia Russell 1000"
+    r, src = _sp400(), "Wikipedia List of S&P 400 companies"
+    print(f"S&P 400 rows {len(r)}", flush=True)
     r["ticker"] = r["ticker"].str.replace(".", "-", regex=False).str.replace(" ", "-", regex=False)
     r = r[r["ticker"].str.fullmatch(r"[A-Z][A-Z0-9\-]{0,6}")]
     large = pd.read_csv(io.StringIO(requests.get(LARGE_URL, timeout=60).text))["ticker"].astype(str)

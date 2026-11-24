@@ -26,10 +26,10 @@ def main() -> int:
         print(f"ERROR only {px['ticker'].nunique()} tickers; not publishing", file=sys.stderr)
         return 1
     px.to_parquet(OUT_DIR / "prices.parquet", index=False, compression="zstd")
-    u.assign(source="midcap")[["ticker", "name", "source"]].to_csv(OUT_DIR / "universe.csv", index=False)
+    u.assign(source="midcap")[["ticker", "name", "source", "list", "sector"]].to_csv(OUT_DIR / "universe.csv", index=False)
     meta = {"generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "last_date": str(px["date"].max()),
             "tickers": int(px["ticker"].nunique()), "universe_source": src, "failed": missing,
-            "notes": "Russell 1000 minus names already in us-market-data. Current membership (forward use)."}
+            "notes": "S&P MidCap 400 minus names already in us-market-data (stage A). Current membership (forward use)."}
     (OUT_DIR / "meta.json").write_text(json.dumps(meta, indent=2))
     print(json.dumps({k: v for k, v in meta.items() if k != "failed"}, indent=2), f"failed {len(missing)}")
     return 0

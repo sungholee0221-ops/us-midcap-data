@@ -1,6 +1,6 @@
 # us-midcap-data
 
-Mid-cap US stocks for chart-ta: **Russell 1000 minus names already in `us-market-data`** (S&P 500 / Nasdaq-100), about 500 tickers. Yahoo (yfinance) adjusted daily prices.
+Mid-cap US stocks for chart-ta. Stage A: **S&P MidCap 400 members** (Wikipedia list) minus names already in `us-market-data`. Stage B (planned): Russell 1000 approximation by dollar volume, tagged in `universe.csv` column `list`. Yahoo (yfinance) adjusted daily prices.
 
 | Branch | Contents | Update |
 |---|---|---|

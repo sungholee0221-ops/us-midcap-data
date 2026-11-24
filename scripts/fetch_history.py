@@ -30,11 +30,11 @@ def main() -> int:
     for y, g in px.groupby(pd.to_datetime(px["date"]).dt.year):
         g.to_parquet(OUT_DIR / f"prices_{y}.parquet", index=False, compression="zstd")
         rows[int(y)] = int(len(g))
-    u.assign(source="midcap")[["ticker", "name", "source"]].to_csv(OUT_DIR / "universe.csv", index=False)
+    u.assign(source="midcap")[["ticker", "name", "source", "list", "sector"]].to_csv(OUT_DIR / "universe.csv", index=False)
     meta = {"generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "start": START,
             "last_date": str(px["date"].max()), "tickers": int(px["ticker"].nunique()), "universe_source": src,
             "rows_by_year": rows, "failed": missing,
-            "notes": "Current Russell 1000 minus large caps: survivorship and composition bias. Reference backtest only."}
+            "notes": "Current S&P MidCap 400 members: survivorship and composition bias. Reference backtest only."}
     (OUT_DIR / "meta.json").write_text(json.dumps(meta, indent=2))
     print(f"last {meta['last_date']} tickers {meta['tickers']} failed {len(missing)}")
     return 0
