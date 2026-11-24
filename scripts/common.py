@@ -23,9 +23,13 @@ INDICES = ["^GSPC", "^RUI", "^RUT", "^VIX"]
 
 
 def _iwb() -> pd.DataFrame:
-    txt = requests.get(IWB_URL, headers=UA, timeout=60).text
+    resp = requests.get(IWB_URL, headers=UA, timeout=60)
+    txt = resp.content.decode("utf-8-sig", errors="replace")
     lines = txt.splitlines()
-    start = next(i for i, l in enumerate(lines) if l.startswith("Ticker,"))
+    print(f"IWB status {resp.status_code} type {resp.headers.get('content-type')} len {len(txt)} head {txt[:200]!r}", flush=True)
+    start = next((i for i, l in enumerate(lines) if l.lstrip('\ufeff"').startswith("Ticker")), None)
+    if start is None:
+        raise RuntimeError("no Ticker header in IWB response")
     df = pd.read_csv(io.StringIO("\n".join(lines[start:])))
     df = df[df["Asset Class"].astype(str).str.lower().eq("equity")]
     return pd.DataFrame({"ticker": df["Ticker"].astype(str).str.strip(), "name": df["Name"].astype(str),
@@ -33,8 +37,11 @@ def _iwb() -> pd.DataFrame:
 
 
 def _wiki() -> pd.DataFrame:
-    html = requests.get(WIKI_URL, headers=UA, timeout=60).text
-    for t in pd.read_html(io.StringIO(html)):
+    resp = requests.get(WIKI_URL, headers=UA, timeout=60)
+    html = resp.text
+    tables = pd.read_html(io.StringIO(html))
+    print(f"wiki status {resp.status_code} tables {[(t.shape, [str(c) for c in t.columns][:4]) for t in tables]}", flush=True)
+    for t in tables:
         cols = {str(c).lower(): c for c in t.columns}
         sym = next((cols[c] for c in cols if "symbol" in c or "ticker" in c), None)
         name = next((cols[c] for c in cols if "company" in c or "name" in c), None)
