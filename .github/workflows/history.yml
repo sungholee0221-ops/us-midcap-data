@@ -1,0 +1,53 @@
+name: update-midcap-history
+
+on:
+  schedule:
+    - cron: "43 23 5 * *"     # monthly, 5th 23:43 UTC (full re-download)
+  workflow_dispatch: {}
+  push:                        # Claude sessions trigger a run by committing to main
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "requirements.txt"
+      - ".github/workflows/history.yml"
+      - "REFRESH_HISTORY"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-midcap-history
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch
+        env:
+          OUT_DIR: ${{ runner.temp }}/out
+        working-directory: scripts
+        run: python fetch_history.py
+
+      # history branch is a single orphan commit, force-pushed each run: repo size stays flat
+      - name: Publish to history branch
+        env:
+          OUT_DIR: ${{ runner.temp }}/out
+        run: |
+          cd "$OUT_DIR"
+          git init -q -b history
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "history through $(jq -r .last_date meta.json)"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" history
