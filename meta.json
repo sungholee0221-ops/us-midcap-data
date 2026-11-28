@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-11-28T10:37:11+00:00",
+  "last_date": "2026-11-27",
+  "tickers": 678,
+  "universe_source": "Wikipedia List of S&P 400 companies + Russell 1000 approx (489; overlap 214)",
+  "failed": [],
+  "notes": "S&P MidCap 400 minus names already in us-market-data (stage A). Current membership (forward use)."
+}

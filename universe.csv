@@ -1,0 +1,675 @@
+ticker,name,source,list,sector
+AA,Alcoa,midcap,sp400+r1000x,Materials
+AAL,American Airlines Group,midcap,sp400+r1000x,Industrials
+AAOI,"Applied Optoelectronics, Inc. - Common Stock",midcap,r1000x,
+AAON,AAON,midcap,sp400,Industrials
+ABVX,Abivax SA - American Depositary Shares,midcap,r1000x,
+ACHR,Archer Aviation Inc. Class A Common Stock,midcap,r1000x,
+ACI,Albertsons,midcap,sp400+r1000x,Consumer Staples
+ACM,AECOM,midcap,sp400+r1000x,Industrials
+ADC,Agree Realty,midcap,sp400+r1000x,Real Estate
+AEHR,Aehr Test Systems - Common Stock,midcap,r1000x,
+AEIS,Advanced Energy,midcap,sp400+r1000x,Information Technology
+AEM,Agnico Eagle Mines Limited Common Stock,midcap,r1000x,
+AEO,"American Eagle Outfitters, Inc. Common Stock",midcap,r1000x,
+AER,AerCap Holdings N.V. Ordinary Shares,midcap,r1000x,
+AFG,American Financial Group,midcap,sp400,Financials
+AFRM,"Affirm Holdings, Inc. - Class A Common Stock",midcap,r1000x,
+AG,First Majestic Silver Corp. Ordinary Shares (Canada),midcap,r1000x,
+AGCO,AGCO,midcap,sp400+r1000x,Industrials
+AGI,Alamos Gold Inc. Class A Common Shares,midcap,r1000x,
+AGNC,AGNC Investment,midcap,sp400+r1000x,Financials
+AGX,"Argan, Inc. Common Stock",midcap,r1000x,
+AHR,American Healthcare REIT,midcap,sp400+r1000x,Real Estate
+AIT,Applied Industrial Technologies,midcap,sp400,Industrials
+ALC,Alcon Inc. Ordinary Shares,midcap,r1000x,
+ALGM,Allegro MicroSystems,midcap,sp400+r1000x,Information Technology
+ALK,Alaska Air Group,midcap,sp400+r1000x,Industrials
+ALLY,Ally Financial,midcap,sp400+r1000x,Financials
+ALSN,Allison Transmission,midcap,sp400,Industrials
+ALV,Autoliv,midcap,sp400,Consumer Discretionary
+AM,Antero Midstream,midcap,sp400,Energy
+AMG,Affiliated Managers Group,midcap,sp400+r1000x,Financials
+AMH,American Homes 4 Rent,midcap,sp400,Real Estate
+AMKR,Amkor Technology,midcap,sp400+r1000x,Information Technology
+AMRZ,Amrize Ltd Ordinary Shares,midcap,r1000x,
+AN,AutoNation,midcap,sp400+r1000x,Consumer Discretionary
+ANF,Abercrombie & Fitch,midcap,sp400+r1000x,Consumer Discretionary
+ANT,"Anthropic, PBC - Class A Common Stock",midcap,r1000x,
+APG,APi Group,midcap,sp400+r1000x,Industrials
+APLD,Applied Digital Corporation - Common Stock,midcap,r1000x,
+APPF,AppFolio,midcap,sp400,Information Technology
+AR,Antero Resources,midcap,sp400+r1000x,Energy
+ARGX,argenx SE - American Depositary Shares,midcap,r1000x,
+ARMK,Aramark,midcap,sp400+r1000x,Consumer Discretionary
+ARW,Arrow Electronics,midcap,sp400+r1000x,Information Technology
+ARWR,Arrowhead Pharmaceuticals,midcap,sp400+r1000x,Health Care
+AS,"Amer Sports, Inc. Ordinary Shares",midcap,r1000x,
+ASB,Associated Bank,midcap,sp400,Financials
+ASH,Ashland Global,midcap,sp400,Materials
+ASND,Ascendis Pharma A/S - Ordinary Share,midcap,r1000x,
+ASST,"Strive, Inc. - Class A Common Stock",midcap,r1000x,
+ASTS,"AST SpaceMobile, Inc. - Class A Common Stock",midcap,r1000x,
+ASX,"ASE Technology Holding Co., Ltd. American Depositary Shares (each representing Two Common Shares) ",midcap,r1000x,
+ATI,ATI Inc.,midcap,sp400+r1000x,Industrials
+ATR,AptarGroup,midcap,sp400,Materials
+AU,AngloGold Ashanti PLC Ordinary Shares,midcap,r1000x,
+AUR,"Aurora Innovation, Inc.  - Class A Common Stock",midcap,r1000x,
+AVAV,AeroVironment,midcap,sp400+r1000x,Industrials
+AVNT,Avient,midcap,sp400,Materials
+AVT,Avnet,midcap,sp400+r1000x,Information Technology
+AVTR,Avantor,midcap,sp400+r1000x,Health Care
+AXSM,"Axsome Therapeutics, Inc. - Common Stock",midcap,r1000x,
+AXTA,Axalta,midcap,sp400,Materials
+AXTI,AXT Inc - Common Stock,midcap,r1000x,
+AYI,Acuity Brands,midcap,sp400+r1000x,Industrials
+AZN,AstraZeneca PLC Ordinary Shares,midcap,r1000x,
+B,Barrick Mining Corporation Common Shares,midcap,r1000x,
+BABA,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share,midcap,r1000x,
+BAH,Booz Allen Hamilton,midcap,sp400+r1000x,Industrials
+BAM,Brookfield Asset Management Inc Class A Limited Voting Shares,midcap,r1000x,
+BAP,Credicorp Ltd. Common Stock,midcap,r1000x,
+BB,BlackBerry Limited Common Stock,midcap,r1000x,
+BBD,Banco Bradesco Sa American Depositary Shares,midcap,r1000x,
+BBIO,"BridgeBio Pharma, Inc. - Common Stock",midcap,r1000x,
+BBWI,"Bath & Body Works, Inc.",midcap,sp400+r1000x,Consumer Discretionary
+BC,Brunswick,midcap,sp400,Consumer Discretionary
+BCE,"BCE, Inc. Common Stock",midcap,r1000x,
+BCO,Brink's,midcap,sp400,Industrials
+BCS,Barclays PLC Common Stock,midcap,r1000x,
+BDC,Belden Inc.,midcap,sp400,Information Technology
+BHF,Brighthouse Financial,midcap,sp400,Financials
+BHP,BHP Group Limited American Depositary Shares (Each representing two Ordinary Shares),midcap,r1000x,
+BIDU,"Baidu, Inc. - American Depositary Shares, each representing 8 ordinary share",midcap,r1000x,
+BILL,Bill Holdings,midcap,sp400,Information Technology
+BIO,Bio-Rad Laboratories,midcap,sp400+r1000x,Health Care
+BJ,BJ's Wholesale Club,midcap,sp400+r1000x,Consumer Staples
+BLDR,"Builders FirstSource, Inc. Common Stock",midcap,r1000x,
+BMNR,"BitMine Immersion Technologies, Inc. Common Stock",midcap,r1000x,
+BMRN,BioMarin Pharmaceutical,midcap,sp400+r1000x,Health Care
+BN,Brookfield Corporation Class A Limited Voting Shares,midcap,r1000x,
+BNS,Bank Nova Scotia Halifax Pfd 3 Ordinary Shares,midcap,r1000x,
+BNTX,BioNTech SE - American Depositary Shares,midcap,r1000x,
+BOOT,"Boot Barn Holdings, Inc. Common Stock",midcap,r1000x,
+BOX,"Box, Inc. Class A Common Stock",midcap,r1000x,
+BP,BP p.l.c. Common Stock,midcap,r1000x,
+BRK-A,Berkshire Hathaway Inc. Common Stock,midcap,r1000x,
+BRKR,Bruker,midcap,sp400+r1000x,Health Care
+BROS,Dutch Bros Inc.,midcap,sp400+r1000x,Consumer Discretionary
+BRX,Brixmor Property Group,midcap,sp400,Real Estate
+BSY,Bentley Systems,midcap,sp400,Information Technology
+BTDR,Bitdeer Technologies Group - Ordinary Shares,midcap,r1000x,
+BTG,B2Gold Corp Common shares (Canada),midcap,r1000x,
+BTI,"British American Tobacco  Industries, p.l.c. Common Stock ADR",midcap,r1000x,
+BTSG,BrightSpring Health Services,midcap,sp400+r1000x,Health Care
+BUD,Anheuser-Busch Inbev SA Sponsored ADR (Belgium),midcap,r1000x,
+BURL,Burlington Stores,midcap,sp400+r1000x,Consumer Discretionary
+BWA,BorgWarner,midcap,sp400+r1000x,Consumer Discretionary
+BWXT,BWX Technologies,midcap,sp400+r1000x,Industrials
+BYD,Boyd Gaming,midcap,sp400,Consumer Discretionary
+CACI,CACI International,midcap,sp400+r1000x,Industrials
+CAG,"ConAgra Brands, Inc. Common Stock",midcap,r1000x,
+CAI,"Caris Life Sciences, Inc. - Common Stock",midcap,r1000x,
+CAKE,The Cheesecake Factory Incorporated - Common Stock,midcap,r1000x,
+CAR,Avis Budget Group,midcap,sp400,Industrials
+CART,Maplebear Inc.,midcap,sp400+r1000x,Consumer Staples
+CAVA,Cava Group,midcap,sp400+r1000x,Consumer Discretionary
+CBRS,Cerebras Systems Inc. - Class A Common Stock,midcap,r1000x,
+CBSH,Commerce Bancshares,midcap,sp400,Financials
+CBT,Cabot Corp,midcap,sp400,Materials
+CCC,CCC Intelligent Solutions Holdings Inc. - Common Stock,midcap,r1000x,
+CCJ,Cameco Corporation Common Stock,midcap,r1000x,
+CCK,Crown Holdings,midcap,sp400+r1000x,Materials
+CDE,Coeur Mining,midcap,sp400+r1000x,Materials
+CDP,COPT Defense Properties,midcap,sp400,Real Estate
+CELH,Celsius Holdings,midcap,sp400+r1000x,Consumer Staples
+CFR,Frost Bank,midcap,sp400,Financials
+CG,Carlyle Group (The),midcap,sp400+r1000x,Financials
+CGNX,Cognex,midcap,sp400+r1000x,Information Technology
+CHDN,Churchill Downs Inc.,midcap,sp400+r1000x,Consumer Discretionary
+CHE,Chemed Corp.,midcap,sp400,Health Care
+CHH,Choice Hotels,midcap,sp400,Consumer Discretionary
+CHKP,Check Point Software Technologies Ltd. - Ordinary Shares,midcap,r1000x,
+CHRD,Chord Energy,midcap,sp400+r1000x,Energy
+CHWY,Chewy,midcap,sp400+r1000x,Consumer Discretionary
+CHYM,Chime Financial,midcap,sp400+r1000x,Financials
+CIFR,Cipher Digital Inc. - Common Stock,midcap,r1000x,
+CLF,Cleveland-Cliffs,midcap,sp400+r1000x,Materials
+CLH,Clean Harbors,midcap,sp400+r1000x,Industrials
+CLS,"Celestica, Inc. Common Stock",midcap,r1000x,
+CLSK,"CleanSpark, Inc. - Common Stock",midcap,r1000x,
+CM,Canadian Imperial Bank of Commerce Common Stock,midcap,r1000x,
+CMC,Commercial Metals,midcap,sp400,Materials
+CNH,CNH Industrial,midcap,sp400+r1000x,Industrials
+CNI,Canadian National Railway Company Common Stock,midcap,r1000x,
+CNM,Core & Main,midcap,sp400,Industrials
+CNO,CNO Financial Group,midcap,sp400,Financials
+CNQ,Canadian Natural Resources Limited Common Stock,midcap,r1000x,
+CNX,CNX Resources,midcap,sp400,Energy
+COKE,Coca-Cola Consolidated,midcap,sp400+r1000x,Consumer Staples
+COLB,Columbia Banking System,midcap,sp400,Financials
+COLM,Columbia Sportswear,midcap,sp400,Consumer Discretionary
+COMP,"Compass, Inc. Class A Common Stock",midcap,r1000x,
+CORT,Corcept Therapeutics,midcap,sp400+r1000x,Health Care
+CORZ,"Core Scientific, Inc. - Common Stock",midcap,r1000x,
+CP,Canadian Pacific Kansas City Limited Common Shares,midcap,r1000x,
+CPB,The Campbell's Company - Common Stock,midcap,r1000x,
+CPNG,"Coupang, Inc. Class A Common Stock",midcap,r1000x,
+CR,Crane,midcap,sp400,Industrials
+CRBG,Corebridge Financial,midcap,sp400+r1000x,Financials
+CRCL,"Circle Internet Group, Inc. Class A Common Stock",midcap,r1000x,
+CRDO,Credo Technology Group Holding Ltd - Ordinary Shares,midcap,r1000x,
+CROX,Crocs,midcap,sp400+r1000x,Consumer Discretionary
+CRS,Carpenter Technology,midcap,sp400+r1000x,Industrials
+CRUS,Cirrus Logic,midcap,sp400+r1000x,Information Technology
+CSL,Carlisle Companies,midcap,sp400+r1000x,Industrials
+CTRE,CareTrust REIT,midcap,sp400,Real Estate
+CTVA,Corteva,midcap,sp400+r1000x,Materials
+CUBE,CubeSmart,midcap,sp400+r1000x,Real Estate
+CUZ,Cousins Properties,midcap,sp400,Real Estate
+CVE,Cenovus Energy Inc Common Stock,midcap,r1000x,
+CVLT,CommVault Systems,midcap,sp400+r1000x,Information Technology
+CW,Curtiss-Wright,midcap,sp400+r1000x,Industrials
+CXT,Crane NXT,midcap,sp400,Information Technology
+CYTK,Cytokinetics,midcap,sp400+r1000x,Health Care
+CZR,"Caesars Entertainment, Inc. - Common Stock",midcap,r1000x,
+DAR,Darling Ingredients,midcap,sp400+r1000x,Consumer Staples
+DAVE,Dave Inc.  - Class A Common Stock,midcap,r1000x,
+DBX,Dropbox,midcap,sp400+r1000x,Information Technology
+DCI,Donaldson Company,midcap,sp400,Industrials
+DEO,Diageo plc Common Stock,midcap,r1000x,
+DHT,"DHT Holdings, Inc.",midcap,r1000x,
+DINO,HF Sinclair,midcap,sp400+r1000x,Energy
+DK,"Delek US Holdings, Inc. Common Stock",midcap,r1000x,
+DKNG,DraftKings Inc. - Class A Common Stock,midcap,r1000x,
+DKS,Dick's Sporting Goods,midcap,sp400+r1000x,Consumer Discretionary
+DLB,Dolby,midcap,sp400,Information Technology
+DOCN,DigitalOcean,midcap,sp400+r1000x,Information Technology
+DOCS,Doximity,midcap,sp400,Health Care
+DOCU,Docusign,midcap,sp400+r1000x,Information Technology
+DT,Dynatrace,midcap,sp400+r1000x,Information Technology
+DTM,DT Midstream,midcap,sp400+r1000x,Energy
+DUOL,Duolingo,midcap,sp400+r1000x,Consumer Discretionary
+DY,Dycom Industries,midcap,sp400+r1000x,Industrials
+EAT,Brinker International,midcap,sp400+r1000x,Consumer Discretionary
+EEFT,Euronet Worldwide,midcap,sp400,Financials
+EGO,Eldorado Gold Corporation Ordinary Shares,midcap,r1000x,
+EGP,EastGroup Properties,midcap,sp400+r1000x,Real Estate
+EHC,Encompass Health,midcap,sp400+r1000x,Health Care
+ELAN,Elanco,midcap,sp400+r1000x,Health Care
+ELF,e.l.f. Beauty,midcap,sp400+r1000x,Consumer Staples
+ELS,Equity Lifestyle Properties,midcap,sp400+r1000x,Real Estate
+EMBJ,Embraer S.A. Common Stock,midcap,r1000x,
+ENB,Enbridge Inc Common Stock,midcap,r1000x,
+ENPH,"Enphase Energy, Inc. - Common Stock",midcap,r1000x,
+ENS,EnerSys,midcap,sp400+r1000x,Industrials
+ENSG,Ensign Group,midcap,sp400,Health Care
+ENTG,Entegris,midcap,sp400+r1000x,Information Technology
+EPAM,"EPAM Systems, Inc. Common Stock",midcap,r1000x,
+EPD,Enterprise Products Partners L.P. Common Stock,midcap,r1000x,
+EPR,EPR Properties,midcap,sp400,Real Estate
+EQH,Equitable Holdings,midcap,sp400+r1000x,Financials
+EQNR,Equinor ASA,midcap,r1000x,
+EQX,Equinox Gold Corp. Common Shares,midcap,r1000x,
+ERIC,Ericsson - American Depositary Shares each representing 1 underlying Class B share,midcap,r1000x,
+ESAB,ESAB,midcap,sp400,Industrials
+ESI,Element Solutions Inc. Common Stock,midcap,r1000x,
+ESNT,Essent Group Ltd.,midcap,sp400,Financials
+ESTC,Elastic N.V. Ordinary Shares,midcap,r1000x,
+ETSY,"Etsy, Inc. Common Stock",midcap,r1000x,
+EVR,Evercore,midcap,sp400+r1000x,Financials
+EWBC,East West Bancorp,midcap,sp400+r1000x,Financials
+EXEL,Exelixis,midcap,sp400+r1000x,Health Care
+EXLS,EXL Service,midcap,sp400,Industrials
+EXP,Eagle Materials,midcap,sp400,Materials
+EXPO,"Exponent, Inc.",midcap,sp400,Industrials
+FAF,First American Financial Corporation,midcap,sp400,Financials
+FBIN,Fortune Brands Innovations,midcap,sp400+r1000x,Industrials
+FCFS,FirstCash,midcap,sp400,Financials
+FCN,FTI Consulting,midcap,sp400,Industrials
+FCNCA,"First Citizens BancShares, Inc. - Class A Common Stock",midcap,r1000x,
+FFIN,First Financial Bankshares,midcap,sp400,Financials
+FHI,Federated Hermes,midcap,sp400,Financials
+FHN,First Horizon,midcap,sp400+r1000x,Financials
+FIG,"Figma, Inc. Class A Common Stock",midcap,r1000x,
+FIGR,"Figure Technology Solutions, Inc. - Class A Common Stock",midcap,r1000x,
+FIVE,Five Below,midcap,sp400+r1000x,Consumer Discretionary
+FLG,Flagstar Bank,midcap,sp400,Financials
+FLR,Fluor,midcap,sp400+r1000x,Industrials
+FLS,Flowserve,midcap,sp400+r1000x,Industrials
+FLUT,Flutter Entertainment plc Ordinary Shares,midcap,r1000x,
+FN,Fabrinet,midcap,sp400+r1000x,Information Technology
+FNB,FNB Corporation,midcap,sp400,Financials
+FND,Floor & Decor,midcap,sp400+r1000x,Consumer Discretionary
+FNF,Fidelity National Financial,midcap,sp400+r1000x,Financials
+FNV,Franco-Nevada Corporation,midcap,r1000x,
+FORM,FormFactor,midcap,sp400+r1000x,Information Technology
+FOUR,Shift4,midcap,sp400,Financials
+FPS,"Forgent Power Solutions, Inc. Class A Common Stock",midcap,r1000x,
+FR,First Industrial Realty Trust,midcap,sp400,Real Estate
+FRO,Frontline Plc Ordinary Shares,midcap,r1000x,
+FROG,JFrog Ltd. - Ordinary shares,midcap,r1000x,
+FSLY,"Fastly, Inc. - Class A Common Stock",midcap,r1000x,
+FTAI,FTAI Aviation Ltd. - Common Stock,midcap,r1000x,
+FTI,TechnipFMC,midcap,sp400+r1000x,Energy
+FUTU,Futu Holdings Limited - American Depositary Shares,midcap,r1000x,
+FWONK,Liberty Media Corporation - Series C Common Stock,midcap,r1000x,
+G,Genpact,midcap,sp400,Industrials
+GAP,Gap Inc.,midcap,sp400+r1000x,Consumer Discretionary
+GATX,GATX,midcap,sp400,Industrials
+GBCI,Glacier Bancorp,midcap,sp400,Financials
+GEF,"Greif, Inc.",midcap,sp400,Materials
+GFI,Gold Fields Limited American Depositary Shares,midcap,r1000x,
+GFL,"GFL Environmental Inc. Subordinate voting shares, no par value",midcap,r1000x,
+GFS,GlobalFoundries Inc. - Ordinary Share,midcap,r1000x,
+GGG,Graco Inc.,midcap,sp400+r1000x,Industrials
+GH,"Guardant Health, Inc. - Common Stock",midcap,r1000x,
+GHC,Graham Holdings,midcap,sp400,Consumer Discretionary
+GKOS,Glaukos,midcap,sp400+r1000x,Health Care
+GLPI,Gaming and Leisure Properties,midcap,sp400+r1000x,Real Estate
+GLXY,Galaxy Digital Inc. - Class A common stock,midcap,r1000x,
+GMAB,Genmab A/S - American Depositary Shares,midcap,r1000x,
+GME,GameStop,midcap,sp400+r1000x,Consumer Discretionary
+GMED,Globus Medical,midcap,sp400+r1000x,Health Care
+GNTX,Gentex,midcap,sp400,Consumer Discretionary
+GPK,Graphic Packaging,midcap,sp400,Materials
+GRAB,Grab Holdings Limited - Class A Ordinary Shares,midcap,r1000x,
+GRAL,"GRAIL, Inc. - Common Stock",midcap,r1000x,
+GSK,GSK plc American Depositary Shares (Each representing two Ordinary Shares),midcap,r1000x,
+GTLB,GitLab Inc. - Class A Common Stock,midcap,r1000x,
+GWRE,Guidewire Software,midcap,sp400+r1000x,Information Technology
+GXO,GXO Logistics,midcap,sp400,Industrials
+H,Hyatt,midcap,sp400+r1000x,Consumer Discretionary
+HAE,Haemonetics,midcap,sp400,Health Care
+HALO,Halozyme,midcap,sp400+r1000x,Health Care
+HBM,Hudbay Minerals Inc. Ordinary Shares (Canada),midcap,r1000x,
+HDB,HDFC Bank Limited Common Stock,midcap,r1000x,
+HEI,Heico Corporation Common Stock,midcap,r1000x,
+HGV,Hilton Grand Vacations,midcap,sp400,Consumer Discretionary
+HIMS,Hims & Hers Health,midcap,sp400+r1000x,Health Care
+HL,Hecla Mining,midcap,sp400+r1000x,Materials
+HLI,Houlihan Lokey,midcap,sp400+r1000x,Financials
+HLN,Haleon plc American Depositary Shares (Each representing two Ordinary Shares),midcap,r1000x,
+HLNE,Hamilton Lane,midcap,sp400,Financials
+HNGE,"Hinge Health, Inc. Class A Common Stock",midcap,r1000x,
+HOG,Harley-Davidson,midcap,sp400,Consumer Discretionary
+HOMB,Home BancShares,midcap,sp400,Financials
+HQY,HealthEquity,midcap,sp400,Health Care
+HR,Healthcare Realty Trust,midcap,sp400+r1000x,Real Estate
+HRB,H&R Block,midcap,sp400,Consumer Discretionary
+HSBC,"HSBC Holdings, plc. Common Stock",midcap,r1000x,
+HUBS,HubSpot,midcap,sp400+r1000x,Information Technology
+HUT,Hut 8 Corp. - Common Stock,midcap,r1000x,
+HWC,Hancock Whitney,midcap,sp400,Financials
+HXL,Hexcel,midcap,sp400,Industrials
+HZN,Bright Horizon Energy Corporation,midcap,sp400+r1000x,Utilities
+IBN,ICICI Bank Limited Common Stock,midcap,r1000x,
+IBOC,Intl Bancshares Corp,midcap,sp400,Financials
+IBRX,"ImmunityBio, Inc. - Common Stock",midcap,r1000x,
+ICLR,ICON plc - Ordinary Shares,midcap,r1000x,
+IDA,Idacorp,midcap,sp400,Utilities
+IDCC,InterDigital,midcap,sp400,Information Technology
+IESC,IES Holdings,midcap,sp400,Industrials
+INFY,Infosys Limited American Depositary Shares,midcap,r1000x,
+INGR,Ingredion,midcap,sp400,Consumer Staples
+INSM,Insmed Incorporated - Common Stock,midcap,r1000x,
+IONQ,"IonQ, Inc. Common Stock",midcap,r1000x,
+IONS,"Ionis Pharmaceuticals, Inc. - Common Stock",midcap,r1000x,
+IOT,Samsara Inc. Class A Common Stock,midcap,r1000x,
+IOVA,"Iovance Biotherapeutics, Inc. - Common Stock",midcap,r1000x,
+IPGP,IPG Photonics,midcap,sp400,Information Technology
+IREN,IREN Limited - Ordinary Shares,midcap,r1000x,
+IRT,Independence Realty Trust,midcap,sp400,Real Estate
+ITT,ITT Inc.,midcap,sp400+r1000x,Industrials
+JAZZ,Jazz Pharmaceuticals,midcap,sp400+r1000x,Health Care
+JD,"JD.com, Inc. - American Depositary Shares",midcap,r1000x,
+JEF,Jefferies,midcap,sp400+r1000x,Financials
+JHX,James Hardie Industries,midcap,sp400+r1000x,Materials
+JLL,Jones Lang LaSalle,midcap,sp400+r1000x,Real Estate
+JOBY,"Joby Aviation, Inc. Common Stock",midcap,r1000x,
+KBH,KB Home,midcap,sp400,Consumer Discretionary
+KBR,"KBR, Inc.",midcap,sp400,Industrials
+KD,Kyndryl,midcap,sp400,Information Technology
+KEX,Kirby Corporation,midcap,sp400,Industrials
+KGC,Kinross Gold Corporation Common Stock,midcap,r1000x,
+KGS,"Kodiak Gas Services, Inc. Common Stock",midcap,r1000x,
+KMX,CarMax Inc,midcap,r1000x,
+KNF,Knife River Corporation,midcap,sp400,Materials
+KNSL,Kinsale Capital Group,midcap,sp400,Financials
+KNX,Knight-Swift,midcap,sp400+r1000x,Industrials
+KRC,Kilroy Realty Corp,midcap,sp400,Real Estate
+KRG,Kite Realty Group Trust,midcap,sp400,Real Estate
+KRMN,Karman Holdings Inc. Common Stock,midcap,r1000x,
+KRYS,Krystal Biotech,midcap,sp400,Health Care
+KTOS,Kratos Defense & Security Solutions,midcap,sp400+r1000x,Industrials
+KVYO,"Klaviyo, Inc. Series A Common Stock",midcap,r1000x,
+KYMR,"Kymera Therapeutics, Inc. - Common Stock",midcap,r1000x,
+LAD,Lithia Motors,midcap,sp400,Consumer Discretionary
+LAMR,Lamar Advertising Company,midcap,sp400,Real Estate
+LEA,Lear,midcap,sp400,Consumer Discretionary
+LECO,Lincoln Electric,midcap,sp400+r1000x,Industrials
+LEU,Centrus Energy Corp. Class A Common Stock,midcap,r1000x,
+LFUS,Littelfuse,midcap,sp400,Information Technology
+LIVN,LivaNova,midcap,sp400,Health Care
+LNG,"Cheniere Energy, Inc. Common Stock",midcap,r1000x,
+LNTH,Lantheus Holdings,midcap,sp400+r1000x,Health Care
+LOPE,Grand Canyon Education,midcap,sp400,Consumer Discretionary
+LPLA,LPL Financial Holdings Inc. - Common Stock,midcap,r1000x,
+LPX,Louisiana-Pacific,midcap,sp400,Industrials
+LQDA,Liquidia Corporation - Common Stock,midcap,r1000x,
+LSCC,Lattice Semiconductor,midcap,sp400+r1000x,Information Technology
+LSTR,Landstar System,midcap,sp400,Industrials
+LTH,"Life Time Group Holdings, Inc. Common Stock",midcap,r1000x,
+LUNR,"Intuitive Machines, Inc. - Class A Common Stock",midcap,r1000x,
+LYFT,"Lyft, Inc. - Class A Common Stock",midcap,r1000x,
+LYG,Lloyds Banking Group Plc American Depositary Shares,midcap,r1000x,
+M,Macy's,midcap,sp400+r1000x,Consumer Discretionary
+MANH,Manhattan Associates,midcap,sp400+r1000x,Information Technology
+MARA,"MARA Holdings, Inc. - Common Stock",midcap,r1000x,
+MAT,Mattel,midcap,sp400,Consumer Discretionary
+MDB,"MongoDB, Inc. - Class A Common Stock",midcap,r1000x,
+MDGL,"Madrigal Pharmaceuticals, Inc. - Common Stock",midcap,r1000x,
+MDLN,Medline Inc. - Class A common stock,midcap,r1000x,
+MEDP,Medpace,midcap,sp400+r1000x,Health Care
+MGY,Magnolia Oil & Gas Corporation Class A Common Stock,midcap,r1000x,
+MHK,"Mohawk Industries, Inc. Common Stock",midcap,r1000x,
+MIDD,Middleby,midcap,sp400,Industrials
+MKL,Markel Group Inc. Common Stock,midcap,r1000x,
+MKSI,MKS Instruments,midcap,sp400+r1000x,Information Technology
+MKTX,"MarketAxess Holdings, Inc. - Common Stock",midcap,r1000x,
+MLI,Mueller Industries,midcap,sp400+r1000x,Industrials
+MMED,"MiniMed Group, Inc. - Common Stock",midcap,r1000x,
+MMS,Maximus Inc.,midcap,sp400,Industrials
+MOD,"Modexus Solutions, Inc. Common Stock",midcap,r1000x,
+MOG-A,Moog Inc.,midcap,sp400,Industrials
+MOH,Molina Healthcare,midcap,sp400+r1000x,Health Care
+MORN,"Morningstar, Inc.",midcap,sp400,Financials
+MP,MP Materials,midcap,sp400+r1000x,Materials
+MSA,MSA Safety,midcap,sp400,Industrials
+MSGK,MSG Knickerbockers Corp. Class A Common Stock,midcap,r1000x,
+MSM,MSC Industrial Direct,midcap,sp400+r1000x,Industrials
+MTCH,"Match Group, Inc. - Common Stock",midcap,r1000x,
+MTDR,Matador Resources,midcap,sp400,Energy
+MTG,MGIC Investment Corporation,midcap,sp400,Financials
+MTN,Vail Resorts,midcap,sp400+r1000x,Consumer Discretionary
+MTSI,MACOM Technology Solutions,midcap,sp400+r1000x,Information Technology
+MTZ,MasTec,midcap,sp400+r1000x,Industrials
+MUR,Murphy Oil,midcap,sp400,Energy
+MUSA,Murphy USA,midcap,sp400+r1000x,Consumer Discretionary
+MXL,"MaxLinear, Inc - Common Stock",midcap,r1000x,
+MZTI,The Marzetti Company,midcap,sp400,Consumer Staples
+NBIX,Neurocrine Biosciences,midcap,sp400+r1000x,Health Care
+NET,"Cloudflare, Inc. Class A Common Stock",midcap,r1000x,
+NEU,NewMarket Corporation,midcap,sp400+r1000x,Materials
+NFG,National Fuel Gas,midcap,sp400,Utilities
+NIO,"NIO Inc. American depositary shares, each  representing one Class A ordinary share",midcap,r1000x,
+NJR,New Jersey Resources,midcap,sp400,Utilities
+NLY,Annaly Capital Management,midcap,sp400+r1000x,Financials
+NNN,NNN Reit,midcap,sp400+r1000x,Real Estate
+NOK,Nokia Corporation Sponsored American Depositary Shares,midcap,r1000x,
+NOV,NOV Inc.,midcap,sp400,Energy
+NOVT,Novanta,midcap,sp400,Information Technology
+NTNX,Nutanix,midcap,sp400+r1000x,Information Technology
+NTR,Nutrien Ltd. Common Shares,midcap,r1000x,
+NTRA,"Natera, Inc. - Common Stock",midcap,r1000x,
+NTSK,"Netskope, Inc. - Class A Common Stock",midcap,r1000x,
+NU,Nu Holdings Ltd. Class A Ordinary Shares,midcap,r1000x,
+NVMI,Nova Ltd. - Ordinary Shares,midcap,r1000x,
+NVS,Novartis AG Common Stock,midcap,r1000x,
+NVST,Envista Holdings,midcap,sp400,Health Care
+NVT,nVent Electric plc,midcap,sp400+r1000x,Industrials
+NVTS,Navitas Semiconductor Corporation - Common Stock,midcap,r1000x,
+NXST,Nexstar Media Group,midcap,sp400,Communication Services
+NXT,Nextpower,midcap,sp400+r1000x,Industrials
+NYT,New York Times Company,midcap,sp400+r1000x,Communication Services
+OC,Owens Corning,midcap,sp400+r1000x,Industrials
+OGE,OGE Energy,midcap,sp400+r1000x,Utilities
+OGS,One Gas,midcap,sp400,Utilities
+OHI,Omega Healthcare Investors,midcap,sp400+r1000x,Real Estate
+OKLO,Oklo Inc. Class A common stock,midcap,r1000x,
+OLED,Universal Display,midcap,sp400,Information Technology
+OLLI,Ollie's Bargain Outlet,midcap,sp400+r1000x,Consumer Discretionary
+ONB,Old National Bank,midcap,sp400+r1000x,Financials
+ONC,BeOne Medicines Ltd. - American Depositary Shares,midcap,r1000x,
+ONDS,Ondas Inc - Common Stock,midcap,r1000x,
+ONON,On Holding AG Class A Ordinary Shares,midcap,r1000x,
+ONTO,Onto Innovation,midcap,sp400+r1000x,Information Technology
+OPCH,Option Care Health,midcap,sp400,Health Care
+ORA,Ormat Technologies,midcap,sp400,Utilities
+ORI,Old Republic International,midcap,sp400,Financials
+OSCR,"Oscar Health, Inc. Class A Common Stock",midcap,r1000x,
+OSK,Oshkosh,midcap,sp400,Industrials
+OVV,Ovintiv,midcap,sp400+r1000x,Energy
+OWL,Blue Owl Capital Inc. Class A Common Stock,midcap,r1000x,
+OZK,Bank OZK,midcap,sp400,Financials
+PAAS,Pan American Silver Corp. Common Stock,midcap,r1000x,
+PAG,Penske Automotive Group,midcap,sp400,Consumer Discretionary
+PATH,UiPath,midcap,sp400+r1000x,Information Technology
+PAYC,"Paycom Software, Inc. Common Stock",midcap,r1000x,
+PB,Prosperity Bancshares,midcap,sp400,Financials
+PBF,PBF Energy,midcap,sp400+r1000x,Energy
+PBR,Petroleo Brasileiro S.A. Petrobras ADS,midcap,r1000x,
+PCOR,"Procore Technologies, Inc. Common Stock",midcap,r1000x,
+PCTY,Paylocity,midcap,sp400+r1000x,Industrials
+PCVX,"Vaxcyte, Inc. - Common Stock",midcap,r1000x,
+PEGA,Pegasystems,midcap,sp400,Information Technology
+PEN,"Penumbra, Inc.",midcap,sp400+r1000x,Health Care
+PENG,"Penguin Solutions, Inc. - Common Stock",midcap,r1000x,
+PFGC,Performance Food Group,midcap,sp400+r1000x,Consumer Staples
+PII,Polaris,midcap,sp400,Consumer Discretionary
+PINS,Pinterest,midcap,sp400+r1000x,Communication Services
+PK,Park Hotels & Resorts,midcap,sp400,Real Estate
+PL,Planet Labs PBC Class A Common Stock,midcap,r1000x,
+PLNT,Planet Fitness,midcap,sp400,Consumer Discretionary
+PNFP,Pinnacle Financial Partners,midcap,sp400+r1000x,Financials
+POOL,Pool Corporation - Common Stock,midcap,r1000x,
+POR,Portland General Electric,midcap,sp400,Utilities
+POST,Post Holdings,midcap,sp400,Consumer Staples
+POWL,"Powell Industries, Inc. - Common Stock",midcap,r1000x,
+PPC,Pilgrim's Pride,midcap,sp400,Consumer Staples
+PR,Permian Resources,midcap,sp400+r1000x,Energy
+PRAX,"Praxis Precision Medicines, Inc. - Common Stock",midcap,r1000x,
+PRI,Primerica,midcap,sp400,Financials
+PRIM,Primoris Services Corporation Common Stock,midcap,r1000x,
+PRMB,Primo Brands Corporation Class A Common Stock,midcap,r1000x,
+PSN,Parsons Corporation,midcap,sp400,Industrials
+PURR,Hyperliquid Strategies Inc - Common Stock,midcap,r1000x,
+PVH,PVH Corp.,midcap,sp400,Consumer Discretionary
+QBTS,D-Wave Quantum Inc. - Common Stock,midcap,r1000x,
+QGEN,Qiagen N.V. Common Shares,midcap,r1000x,
+QLYS,Qualys,midcap,sp400+r1000x,Information Technology
+QSR,Restaurant Brands International Inc. Common Shares,midcap,r1000x,
+QXO,"QXO, Inc. Common Stock",midcap,r1000x,
+R,Ryder,midcap,sp400,Industrials
+RACE,Ferrari N.V. Common Shares,midcap,r1000x,
+RAL,Ralliant Corporation Common Stock,midcap,r1000x,
+RBA,RB Global,midcap,sp400+r1000x,Industrials
+RBC,RBC Bearings,midcap,sp400+r1000x,Industrials
+RBLX,Roblox Corporation Class A Common Stock,midcap,r1000x,
+RBRK,"Rubrik, Inc. Class A Common Stock",midcap,r1000x,
+RDW,Redwire Corporation Common Stock,midcap,r1000x,
+REXR,Rexford Industrial Realty,midcap,sp400+r1000x,Real Estate
+RGA,Reinsurance Group of America,midcap,sp400+r1000x,Financials
+RGEN,Repligen,midcap,sp400+r1000x,Health Care
+RGLD,Royal Gold,midcap,sp400+r1000x,Materials
+RGTI,"Rigetti Computing, Inc.  - Common stock",midcap,r1000x,
+RH,RH,midcap,sp400+r1000x,Consumer Discretionary
+RIG,Transocean Ltd (Switzerland) Common Stock,midcap,r1000x,
+RIO,Rio Tinto Plc Common Stock,midcap,r1000x,
+RIOT,"Riot Platforms, Inc. - Common Stock",midcap,r1000x,
+RIVN,"Rivian Automotive, Inc. - Class A Common Stock",midcap,r1000x,
+RKT,"Rocket Companies, Inc. Class A Common Stock",midcap,r1000x,
+RLI,RLI Corp.,midcap,sp400,Financials
+RMBS,Rambus,midcap,sp400+r1000x,Information Technology
+RNG,"RingCentral, Inc. Class A Common Stock",midcap,r1000x,
+RNR,RenaissanceRe,midcap,sp400+r1000x,Financials
+ROIV,Roivant Sciences,midcap,sp400+r1000x,Health Care
+RPM,RPM International,midcap,sp400+r1000x,Materials
+RPRX,Royalty Pharma plc - Class A Ordinary Shares,midcap,r1000x,
+RRC,Range Resources,midcap,sp400+r1000x,Energy
+RRX,Regal Rexnord,midcap,sp400+r1000x,Industrials
+RS,"Reliance, Inc.",midcap,sp400+r1000x,Materials
+RVMD,"Revolution Medicines, Inc. - Common Stock",midcap,r1000x,
+RY,Royal Bank Of Canada Common Stock,midcap,r1000x,
+RYAN,Ryan Specialty,midcap,sp400,Financials
+RYN,Rayonier,midcap,sp400,Real Estate
+S,"SentinelOne, Inc. Class A Common Stock",midcap,r1000x,
+SAIA,Saia,midcap,sp400+r1000x,Industrials
+SAIC,Science Applications Intl Corp,midcap,sp400,Industrials
+SAIL,"SailPoint, Inc. - Common Stock",midcap,r1000x,
+SAN,"Banco Santander, S.A. Sponsored ADR (Spain)",midcap,r1000x,
+SANM,Sanmina Corporation,midcap,sp400+r1000x,Information Technology
+SAP,SAP  SE ADS,midcap,r1000x,
+SARO,StandardAero,midcap,sp400,Industrials
+SBRA,Sabra Health Care REIT,midcap,sp400,Real Estate
+SCCO,Southern Copper Corporation Common Stock,midcap,r1000x,
+SCI,Service Corp Intl,midcap,sp400,Consumer Discretionary
+SE,"Sea Limited American Depositary Shares, each representing one Class A Ordinary Share",midcap,r1000x,
+SEI,"Solaris Energy Infrastructure, Inc. Class A Common Stock",midcap,r1000x,
+SEIC,SEI Investments Company,midcap,sp400,Financials
+SF,Stifel,midcap,sp400+r1000x,Financials
+SFM,Sprouts Farmers Market,midcap,sp400+r1000x,Consumer Staples
+SGI,Somnigroup International,midcap,sp400+r1000x,Consumer Discretionary
+SHC,Sotera Health,midcap,sp400,Health Care
+SHEL,Shell PLC American Depositary Shares (each representing two (2) Ordinary Shares) ,midcap,r1000x,
+SIGI,Selective Insurance Group,midcap,sp400,Financials
+SIMO,"Silicon Motion Technology Corporation - American Depositary Shares, each representing four ordinary shares",midcap,r1000x,
+SIRI,SiriusXM,midcap,sp400+r1000x,Communication Services
+SITE,"SiteOne Landscape Supply, Inc. Common Stock",midcap,r1000x,
+SITM,SiTime,midcap,sp400+r1000x,Information Technology
+SKHY,SK hynix Inc. - American Depositary Shares,midcap,r1000x,
+SLAB,Silicon Labs,midcap,sp400,Information Technology
+SLGN,Silgan Holdings,midcap,sp400,Materials
+SLM,SLM Corp,midcap,sp400,Financials
+SM,SM Energy Company Common Stock,midcap,r1000x,
+SMG,Scotts Miracle-Gro Company,midcap,sp400,Materials
+SMR,NuScale Power Corporation Class A Common Stock,midcap,r1000x,
+SMTC,Semtech,midcap,sp400+r1000x,Information Technology
+SN,SharkNinja,midcap,sp400+r1000x,Consumer Discretionary
+SNAP,Snap Inc. Class A Common Stock,midcap,r1000x,
+SNOW,Snowflake Inc. Common Stock,midcap,r1000x,
+SNX,TD Synnex,midcap,sp400+r1000x,Information Technology
+SNY,Sanofi - American Depositary Shares,midcap,r1000x,
+SOFI,"SoFi Technologies, Inc.  - Common Stock",midcap,r1000x,
+SOLS,Solstice Advanced Materials,midcap,sp400+r1000x,Materials
+SON,Sonoco,midcap,sp400,Materials
+SONY,Sony Group Corporation American Depositary Shares ,midcap,r1000x,
+SOUN,"SoundHound AI, Inc. - Class A Common Stock",midcap,r1000x,
+SPOT,Spotify Technology S.A. Ordinary Shares,midcap,r1000x,
+SPXC,SPX Technologies,midcap,sp400+r1000x,Industrials
+SR,Spire,midcap,sp400,Utilities
+SSB,South State Bank,midcap,sp400,Financials
+SSD,Simpson Manufacturing,midcap,sp400,Industrials
+SSNC,"SS&C Technologies Holdings, Inc. - Common Stock",midcap,r1000x,
+ST,Sensata Technologies,midcap,sp400,Industrials
+STAG,STAG Industrial,midcap,sp400,Real Estate
+STLA,Stellantis N.V. Common Shares,midcap,r1000x,
+STM,STMicroelectronics N.V. Common Stock,midcap,r1000x,
+STRL,Sterling Infrastructure,midcap,sp400+r1000x,Industrials
+STWD,Starwood Property Trust,midcap,sp400,Financials
+SU,Suncor Energy  Inc. Common Stock,midcap,r1000x,
+SUI,Sun Communities,midcap,sp400+r1000x,Real Estate
+SUNB,"Sunbelt Rentals Holdings, Inc. Common Stock",midcap,r1000x,
+SWX,Southwest Gas Corp,midcap,sp400,Utilities
+SYNA,Synaptics,midcap,sp400+r1000x,Information Technology
+SYRE,"Spyre Therapeutics, Inc. - Common Stock",midcap,r1000x,
+TAP,Molson Coors Beverage Company Class B Common Stock,midcap,r1000x,
+TCBI,Texas Capital Bancshares,midcap,sp400,Financials
+TCOM,Trip.com Group Limited - American Depositary Shares,midcap,r1000x,
+TD,Toronto Dominion Bank (The) Common Stock,midcap,r1000x,
+TEAM,Atlassian Corporation  - Class A Common Stock,midcap,r1000x,
+TECK,Teck Resources Ltd Ordinary Shares,midcap,r1000x,
+TEM,"Tempus AI, Inc. - Class A Common Stock",midcap,r1000x,
+TENB,"Tenable Holdings, Inc. - Common Stock",midcap,r1000x,
+TEVA,Teva Pharmaceutical Industries Limited Ordinary Shares,midcap,r1000x,
+TEX,Terex,midcap,sp400,Industrials
+TFX,Teleflex Incorporated Common Stock,midcap,r1000x,
+TGTX,"TG Therapeutics, Inc. - Common Stock",midcap,r1000x,
+THC,Tenet Health,midcap,sp400+r1000x,Health Care
+THG,Hanover Insurance,midcap,sp400,Financials
+THO,Thor Industries,midcap,sp400,Consumer Discretionary
+TKR,Timken,midcap,sp400+r1000x,Industrials
+TLN,Talen Energy,midcap,sp400+r1000x,Utilities
+TNL,Travel + Leisure Co.,midcap,sp400,Consumer Discretionary
+TOL,Toll Brothers,midcap,sp400+r1000x,Consumer Discretionary
+TOST,"Toast, Inc.",midcap,sp400+r1000x,Financials
+TPG,TPG Inc. - Class A Common Stock,midcap,r1000x,
+TREX,Trex,midcap,sp400,Industrials
+TRP,TC Energy Corporation Common Stock,midcap,r1000x,
+TRU,TransUnion,midcap,sp400+r1000x,Industrials
+TSEM,Tower Semiconductor Ltd. - Ordinary Shares,midcap,r1000x,
+TTAN,"ServiceTitan, Inc. - Class A Common Stock",midcap,r1000x,
+TTC,Toro,midcap,sp400,Industrials
+TTD,"The Trade Desk, Inc. - Class A Common Stock",midcap,r1000x,
+TTE,TotalEnergies SE Ordinary Shares,midcap,r1000x,
+TTEK,Tetra Tech,midcap,sp400,Industrials
+TTMI,TTM Technologies,midcap,sp400+r1000x,Information Technology
+TVTX,"Travere Therapeutics, Inc. - Common Stock",midcap,r1000x,
+TW,Tradeweb Markets Inc. - Class A Common Stock,midcap,r1000x,
+TWST,Twist Bioscience Corporation - Common Stock,midcap,r1000x,
+TXG,"10x Genomics, Inc. - Common Stock",midcap,r1000x,
+TXNM,TXNM Energy,midcap,sp400,Utilities
+TXRH,Texas Roadhouse,midcap,sp400+r1000x,Consumer Discretionary
+U,Unity Software Inc. Common Stock,midcap,r1000x,
+UBS,UBS Group AG Registered Ordinary Shares,midcap,r1000x,
+UBSI,United Bankshares,midcap,sp400,Financials
+UFPI,UFP Industries,midcap,sp400,Industrials
+UGI,UGI Corp,midcap,sp400,Utilities
+UL,Unilever PLC American Depositary Shares (each representing One Ordinary Share),midcap,r1000x,
+ULS,UL Solutions,midcap,sp400,Industrials
+UMBF,UMB Financial Corp.,midcap,sp400,Financials
+UMC,United Microelectronics Corporation (NEW) Common Stock,midcap,r1000x,
+UNM,Unum,midcap,sp400+r1000x,Financials
+UPST,"Upstart Holdings, Inc. - Common stock",midcap,r1000x,
+USAR,"USA Rare Earth, Inc. - Common Stock",midcap,r1000x,
+USFD,US Foods,midcap,sp400+r1000x,Consumer Staples
+UTHR,United Therapeutics,midcap,sp400+r1000x,Health Care
+VAL,Valaris,midcap,sp400,Energy
+VALE,VALE S.A.  American Depositary Shares Each Representing one common share,midcap,r1000x,
+VC,Visteon,midcap,sp400,Consumer Discretionary
+VFC,VF Corporation,midcap,sp400+r1000x,Consumer Discretionary
+VG,"Venture Global, Inc. Class A common stock",midcap,r1000x,
+VIAV,Viavi Solutions,midcap,sp400+r1000x,Information Technology
+VICR,Vicor Corporation,midcap,sp400+r1000x,Industrials
+VIK,Viking Holdings Ltd Ordinary Shares,midcap,r1000x,
+VKTX,"Viking Therapeutics, Inc. - Common Stock",midcap,r1000x,
+VLY,Valley Bank,midcap,sp400+r1000x,Financials
+VMI,Valmont Industries,midcap,sp400,Industrials
+VNO,Vornado Realty Trust,midcap,sp400,Real Estate
+VNOM,Viper Energy,midcap,sp400,Energy
+VNT,Vontier,midcap,sp400,Information Technology
+VOYA,Voya Financial,midcap,sp400+r1000x,Financials
+VRNS,"Varonis Systems, Inc. - Common Stock",midcap,r1000x,
+VSAT,"ViaSat, Inc. - Common Stock",midcap,r1000x,
+VSH,"Vishay Intertechnology, Inc. Common Stock",midcap,r1000x,
+VSXY,Victorias Secret & Co. Common Stock ,midcap,r1000x,
+VVV,Valvoline,midcap,sp400+r1000x,Consumer Discretionary
+W,Wayfair Inc. Class A Common Stock,midcap,r1000x,
+WAL,Western Alliance Bancorporation,midcap,sp400,Financials
+WCC,WESCO International,midcap,sp400+r1000x,Industrials
+WCN,"Waste Connections, Inc. Common Shares",midcap,r1000x,
+WEX,WEX Inc.,midcap,sp400+r1000x,Financials
+WFRD,Weatherford International,midcap,sp400,Energy
+WH,Wyndham Hotels & Resorts,midcap,sp400,Consumer Discretionary
+WHR,Whirlpool Corporation,midcap,sp400+r1000x,Consumer Discretionary
+WING,Wingstop,midcap,sp400+r1000x,Consumer Discretionary
+WLK,Westlake Corporation,midcap,sp400,Materials
+WMG,Warner Music Group,midcap,sp400,Communication Services
+WMS,Advanced Drainage Systems,midcap,sp400+r1000x,Industrials
+WPC,W. P. Carey,midcap,sp400+r1000x,Real Estate
+WPM,Wheaton Precious Metals Corp Common Shares (Canada),midcap,r1000x,
+WSO,Watsco,midcap,sp400+r1000x,Industrials
+WTFC,Wintrust Financial,midcap,sp400,Financials
+WTRG,Essential Utilities,midcap,sp400+r1000x,Utilities
+WTS,Watts Water Technologies,midcap,sp400,Industrials
+WULF,TeraWulf Inc. - Common Stock,midcap,r1000x,
+WWD,"Woodward, Inc.",midcap,sp400+r1000x,Industrials
+XP,XP Inc. - Class A Common Stock,midcap,r1000x,
+XPO,"XPO, Inc.",midcap,sp400+r1000x,Industrials
+XRAY,Dentsply Sirona,midcap,sp400,Health Care
+YETI,Yeti Holdings,midcap,sp400,Consumer Discretionary
+Z,"Zillow Group, Inc. - Class C Capital Stock",midcap,r1000x,
+ZETA,Zeta Global Holdings Corp. Class A Common Stock,midcap,r1000x,
+ZION,Zions Bancorporation,midcap,sp400+r1000x,Financials
+ZM,"Zoom Communications, Inc. - Class A Common Stock",midcap,r1000x,
+ZS,"Zscaler, Inc. - Common Stock",midcap,r1000x,
